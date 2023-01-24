@@ -17,6 +17,8 @@ I have uploaded this addon file too in a limited form for you to try if you want
   2) Install Cones.json in the addons folder of your Blender installation. On Windows with Blender version 3.3 this would be C:\Users\(your username)\AppData\Roaming\Blender Foundation\Blender\3.3\scripts\addons. Then change the directory in line 2 to point to your installation of the Picea folder.
   3) Install the Cone_Creator_Rewrite.py file as with any addon.
   4) The plugin should now work in a limited fashion so that it will produce Norway Spruce and Blue Spruce cones only. The addon adds a 'Cones' tab to the 3D viewport popout menus. 
+  
+  files : Cone_Creator_Rewrite.py, Cones.json & Picea.zip
 
 The individual cone assets are Alder.zip, Austrian Pine.zip, Blue Spruce.zip, Douglas Fir 2.zip, European Larch.zip, Japanese Larch.zip, Maritime Pine.zip, Monterey Pine.zip, Mountain Pine 8.zip & Norway Spruce.zip
   
