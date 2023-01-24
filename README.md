@@ -1,8 +1,9 @@
 # Blender assets - Cones and Moss
 Blender assets
 
+I have uploaded this repository for the sole purpose of submitting my work to blender marketplace and for the assessment of what I have created. I am fairly new to Blender and the output below represents my first foray into Python coding. My aim is to use the skills learnt here to develop an addon to produce realistic herbaceoud plants 'grown' from a text file definition and a small amount of geometry. I'm interested in using code to replicate organic forms. I may work on some code to weave baskets as a training ground to working with fleshed out curves.
+
 # Cones
-I have uploaded this repository for the sole purpose of submitting my work to blender marketplace and for the assessment of what I have created.
 
 There are a total of 10 blend files containing cone assets. Each has 8 sample cones with the exception of the Douglas Fir which contains only 2. This allowed file sizes that would upload to Github. The cones were all produced using two addons that I have created with Python scripts. 
 The first addon creates a cone shape as a mesh and can be installed and used independently from the add mesh menu. It is called Phyllotactic Dome and takes a phyllotactic spiral and wraps it around a conical shape. This cone can be manipulated by adjusting its different segemnts and base to form a wide variety of cone-like solids. I intend to use this basic addon as the base point to create more natural forms such as realistic flowers. It would also lend itself well to the basis for an animal horn generator. I have uploaded this addon for you to intall and try out.
