@@ -1,0 +1,49 @@
+{
+	"Directory": "C:\\Users\\marti\\Documents\\Martin\\Blender\\Cones\\",
+	"Cones": [
+		{
+			"Name": "Alder",
+			"File": "Alnus\\Alder.json"
+		},
+		{
+			"Name": "Douglas Fir",
+			"File": "Pseudotsuga\\Pseudotsuga.json"
+		},
+		{
+			"Name": "Europaean Larch",
+			"File": "Larix\\Larix_decidua.json"
+		},
+		{
+			"Name": "Japanese Larch",
+			"File": "Larix\\Larix_kaempferi.json"
+		},
+		{
+			"Name": "Norway Spruce",
+			"File": "Picea\\Picea_abies.json"
+		},
+		{
+			"Name": "Blue Spruce",
+			"File": "Picea\\Picea_pungens.json"
+		},
+		{
+			"Name": "Austrian Pine",
+			"File": "Pinus\\Pinus_nigra.json"
+		},
+		{
+			"Name": "Maritime Pine",
+			"File": "Pinus\\Pinus_pinaster.json"
+		},
+		{
+			"Name": "Monterey Pine",
+			"File": "Pinus\\Pinus_radiata.json"
+		},
+		{
+			"Name": "Mountain Pine",
+			"File": "Pinus\\Pinus_mugo.json"
+		},
+		{
+			"Name": "Scots Pine",
+			"File": "Pinus\\Pinus_sylvestris.json"
+		}
+	]
+}
