@@ -17,9 +17,13 @@ I have uploaded this addon file too in a limited form for you to try if you want
   2) Install Cones.json in the addons folder of your Blender installation. On Windows with Blender version 3.3 this would be C:\Users\(your username)\AppData\Roaming\Blender Foundation\Blender\3.3\scripts\addons. Then change the directory in line 2 to point to your installation of the Picea folder.
   3) Install the Cone_Creator_Rewrite.py file as with any addon.
   4) The plugin should now work in a limited fashion so that it will produce Norway Spruce and Blue Spruce cones only. The addon adds a 'Cones' tab to the 3D viewport popout menus. 
+
+The individual cone assets are Alder.zip, Austrian Pine.zip, Blue Spruce.zip, Douglas Fir 2.zip, European Larch.zip, Japanese Larch.zip, Maritime Pine.zip, Monterey Pine.zip, Mountain Pine 8.zip & Norway Spruce.zip
   
 # Moss
 The moss assets work differently from the cones above.
 Each moss type is a geometry node setup that places small 'moss planes' randomly orientated and randomly selected on the vertex groups of the object they are connected too. Each 'Moss plane' is a simple shape with a moss image isolated with a transparent alpha channel mask. Hence, the effect only works well with Cycles rendering.
 I have uploaded the four textures ( 3 moss and 1 fungus ) as individual files and as a combined asset. To use any of them, copy and paste my geometry into your scene to load in the geometry nodes setup and then attach the geometry node to your geometry from the Geometry Nodes workspace. Select any number of vertices from your model and assign them to the vertex group that is specified in the vertex group tab. In the modifiers tab you will see a geometry nodes section where ther will be exposed controls to give artistic control over the way the moss is sized and arranged. 
+
+The assets are : 4 Moss Balls.zip - all assets in one file. Or the individual files : Fungus.zip, Moss_001.zip, Moss_002.zip & Moss_003.zip
 
