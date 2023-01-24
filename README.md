@@ -10,7 +10,7 @@ The first addon creates a cone shape as a mesh and can be installed and used ind
 The second addon takes information read from JSON files and fashions fully formed cones from scale geometry held in separate blend files. I have currently created 10 varied cones that it will output, each with randomised variation. It is these created mesh objects that I would like to offer.
 I have uploaded this addon file too in a limited form for you to try if you want. To install it requires the following process. It is a little fiddly which is why I don't plan at present to genarally release this file. 
 
-  1) Install the unzipped 'Picea' folder in a location of your choice. open up the two JSON files ( Picea_pungens.json and Picea_abies.json ) and amend line 38 to point to your installation of the appropriate blend files.
+  1) Install the unzipped 'Picea' folder in a location of your choice. open up the two JSON files contained in it ( Picea_pungens.json and Picea_abies.json ) and amend line 38 to point to your installation of the included blend files. You will need to open up each blend file and us File > External Data > Find Missing Files to reconnect the image textures which are loacted in the assets folder you will have unzipped.
   2) Install Cones.json in the addons folder of your Blender installation. On Windows this would be C:\Users\(your username)\AppData\Roaming\Blender Foundation\Blender\3.3\scripts\addons. Then change the directory in line 2 to point to your installation of the Picea folder.
   3) Install the Cone_Creator_Rewrite.py file as with any addon.
   4) The plugin should now work in a limited fashion so that it will produce Norway Spruce and Blue Spruce cones only. 
