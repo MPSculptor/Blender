@@ -1,6 +1,7 @@
 # Blender assets - Cones and Moss
 Blender assets
 
+# Cones
 I have uploaded this repository for the sole purpose of submitting my work to blender marketplace and for the assessment of what I have created.
 
 There are a total of 10 blend files containing cone assets. Each has 8 sample cones with the exception of the Douglas Fir which contains only 2. This allowed file sizes that would upload to Github. The cones were all produced using two addons that I have created with Python scripts. 
@@ -12,4 +13,9 @@ I have uploaded this addon file too in a limited form for you to try if you want
   2) Install Cones.json in the addons folder of your Blender installation. On Windows this would be C:\Users\(your username)\AppData\Roaming\Blender Foundation\Blender\3.3\scripts\addons. Then change the directory in line 2 to point to your installation of the Picea folder.
   3) Install the Cone_Creator_Rewrite.py file as with any addon.
   4) The plugin should now work in a limited fashion so that it will produce Norway Spruce and Blue Spruce cones only. 
+  
+# Moss
+The moss assets work differently from the cones above.
+Each moss type is a geometry node setup that places small 'moss planes' randomly orientated and randomly selected on the vertex groups of the object they are connected too. Each 'Moss plane' is a simple shape with a moss image isolated with a transparent alpha channel mask. Hence, the effect only works well with Cycles rendering.
+I have uploaded the four textures ( 3 moss and 1 fungus ) as individual files and as a combined asset. To use any of them, copy and paste my geometry into your scene to load in the geometry nodes setup and then attach the geometry node to your geometry from the Geometry Nodes workspace. Select any number of vertices from your model and assign them to the vertex group that is specified in the vertex group tab. In the modifiers tab you will see a geometry nodes section where ther will be exposed controls to give artistic control over the way the moss is sized and arranged. 
 
