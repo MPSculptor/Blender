@@ -11,7 +11,7 @@ The first addon creates the cone shape as a mesh and can be installed and used i
   file:- Phyllotactic_Dome_1_5.py
   
 The second addon takes information read from JSON files and fashions fully formed cones from scale geometry held in separate blend files. I have currently created 10 varied cones that it will output, each with randomised variation. It is these created mesh objects that I would like to offer.
-I have uploaded this addon file too in a limited form for you to try if you want. To install it requires the following slightly involved process. It is a little fiddly which is why I don't plan at present to genarally release this file. 
+I have uploaded this addon file too in a limited form for you to try if you want. To install it requires the following rather involved process. It is a too fiddly which is why I don't plan at present to genarally release this file. ( In future I'm sure this could be streamlined, but that is not a current priority. ) 
 
   1) Install the unzipped 'Picea' folder in a location of your choice. open up the two JSON files contained in it ( Picea_pungens.json and Picea_abies.json ) and amend line 38 to point to your installation of the included blend files. You will also need to open up each blend file and use File > External Data > Find Missing Files to reconnect the image textures which are located in the assets folder you will have unzipped.
   2) Install Cones.json in the addons folder of your Blender installation. On Windows with Blender version 3.3 this would be C:\Users\(your username)\AppData\Roaming\Blender Foundation\Blender\3.3\scripts\addons. Then change the directory in line 2 to point to your installation of the Picea folder.
